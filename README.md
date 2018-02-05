@@ -1,2 +1,4 @@
-# coax-test-task
-COAX test task
+To run task:
+
+`npm install && npm start`
+

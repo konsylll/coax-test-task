@@ -1,0 +1,20 @@
+[{
+  "id": 1,
+  "type": "phone",
+  "name": "iPhone 5",
+  "price": "$400",
+  "rating": 3.8
+}, {
+  "id": 2,
+  "type": "phone",
+  "name": "Nokia Lumia 1320",
+  "price": "$130",
+  "rating": 2.1
+},
+{
+  "id": 3,
+  "type": "tablet",
+  "name": "iPad10 mini",
+  "price": "$1300",
+  "rating": 4.8
+}]
