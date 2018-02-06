@@ -15,6 +15,13 @@
   "id": 3,
   "type": "tablet",
   "name": "iPad10 mini",
-  "price": "$1300",
+  "price": "$400",
   "rating": 4.8
+},
+{
+  "id": 6,
+  "type": "notebook",
+  "name": "Mac mini",
+  "price": "$1300",
+  "rating": 3.6
 }]
