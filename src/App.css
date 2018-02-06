@@ -18,3 +18,7 @@
 .table thead tr th {
   cursor: pointer;
 }
+
+.table tbody tr td {
+  vertical-align: middle;
+}
