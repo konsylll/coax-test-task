@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #96a9bd;
 }
 
 .app-container {
@@ -8,4 +9,12 @@
 
 .app-categories {
   text-align: left;
+}
+
+.table thead tr {
+  background-color: #364355;
+}
+
+.table thead tr th {
+  cursor: pointer;
 }

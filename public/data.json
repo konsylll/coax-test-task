@@ -24,4 +24,25 @@
   "name": "Mac mini",
   "price": "$1300",
   "rating": 3.6
+},
+{
+  "id": 8,
+  "type": "phone",
+  "name": "Samsung",
+  "price": "$200",
+  "rating": 2.5
+},
+{
+  "id": 11,
+  "type": "notebook",
+  "name": "Lenovo IdeaPad",
+  "price": "$450",
+  "rating": 4.1
+},
+{
+  "id": 16,
+  "type": "tablet",
+  "name": "Nexus 7",
+  "price": "$320",
+  "rating": 1.5
 }]
