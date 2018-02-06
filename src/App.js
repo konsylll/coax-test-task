@@ -26,7 +26,7 @@ class App extends Component {
 
     _toggleProductType = (type) => {
         let typeIndex = this.types.indexOf(type);
-        if(this.types.indexOf(type)+1){
+        if(typeIndex+1){
             this.types.splice(typeIndex,1)
         } else {
             this.types.push(type)

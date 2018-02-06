@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import StarRaitingComponent from 'react-star-rating-component';
 
 export default class ProductTable extends Component {
     constructor() {
@@ -33,8 +34,8 @@ export default class ProductTable extends Component {
               this.sorted !== 'rating' ? callback = (a,b) => a.rating > b.rating : callback = (a,b) => a.rating < b.rating;
               break;
             case 'price':
-              this.sorted !== 'price' ? callback = (a,b) => parseInt(a.price.substring(1)) > parseInt(b.price.substring(1))
-                : callback = (a,b) => parseInt(a.price.substring(1)) < parseInt(b.price.substring(1));
+              this.sorted !== 'price' ? callback = (a,b) => parseInt(a.price.substring(1), 10) > parseInt(b.price.substring(1), 10)
+                : callback = (a,b) => parseInt(a.price.substring(1), 10) < parseInt(b.price.substring(1), 10);
               break;
             default:
         }
@@ -63,7 +64,7 @@ export default class ProductTable extends Component {
                             {item.name}
                         </td>
                         <td>
-                            {item.rating}
+                            <StarRaitingComponent editing={false} name={'rating'} value={item.rating} />
                         </td>
                         <td>
                             {item.price}
