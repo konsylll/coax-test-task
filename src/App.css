@@ -22,3 +22,7 @@
 .table tbody tr td {
   vertical-align: middle;
 }
+
+.table tbody tr td div.dv-star-rating {
+  vertical-align: middle;
+}
